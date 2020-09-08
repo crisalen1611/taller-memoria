@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Taller memoria}
+            
+        \vspace{0.5cm}
+        \LARGE
+
+            
+        \vspace{1.5cm}
+            
+        \textbf{Cristian Alejandro Muñoz Osorio}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\section{Sección introductoria}
+En este texto se plantea la importancia de la memoria de un computador y demas objetos electronicos, tambien los tipos de memoria existentes y su funcionamiento
+
+\section{Definicion memoria}
+En la mayoria de casos la memoria puede ser definida como un dispositivo de almacenamiento temporal donde los microprocesadores pueden tomar informacion para luego procesarla y mostrarle al usuario los resultados esperados. Los tipos de memoria pueden variar segun su velocidad y en muchas ocasiones se confunde el almacenamiento con la memoria sabiendo que la diferencia entre estos dos es que el proposito del almacenamiento es guardar datos cuando estos ya no se estan usando mientras que la memoria debe tenerlos disponibles para el procesamientos
+
+\section{Tipos de memoria}
+Memoria RAM: Sus siglas representan Random Access Memory ya que esta esta dividida por celdas que almacenan unidades de memoria bit a las cuales se puede acceder de forma aleatoria. Esta memoria podria considerarse la memoria mas importante de la computadora.
+
+Memoria ROM: Sus siglas representan Read Only Memory. Esta memoria es no volatil y se encuentra insertada en la placa madre y su funcion principal es guiar a la computadora en el arranque haciendo tambien un chequeo de los componentes.
+
+Memoria Cache: Esta es la memoria mas rapida de la computadora y se usa cuando un segmento de datos se repite constantemente, Esta memoria tiene tres niveles L1, L2, L3 y es la memoria mas cercana al procesador.
+
+Memoria virtual: Esta memoria es una pequeña parte de disco duro y funciona de manera similar a la cache, su funcion principal es sostener datos de poco uso.
+
+
+\section{Como se gestiona la memoria en una computadora?} 
+Despues de encendido de la computadora se activa el microprocesador y lee las instrucciones desde la memoria ROM dando inicio a un chequeo de los componentes, luego desde el disco de arranque que contiene el sistema operativo es llevado a la memoria RAM permitiendo que podamos interactuar con la computadora, ya por ultimo despues de guardados los archivos estos van a parar al disco duro.
+
+
+\section{¿Qué hace que una memoria sea más rápida que otra y por qué esto es importante?}
+Al momento de comparar las velocidades de las memorias es importante saber que hay dos caracteristicas que hacen que unas sean mejor que otras, estas son la latencia y la frecuencia. La latencia es el tiempo de respuesta despues de una peticion al procesador mientras que la frecuencia es la velocidad en que se transportan los datos de lectura y escritura. Es importante  la rapidez en la memoria para tener un optimo procesamiento de los datos y un mejor desempeño en el uso de programas.
+
+
+
+\section{Conclusión} \label{conclulsion}
+Es necesario conocer el funcionamiento de las memorias del computador para saber suplir nuestras necesidades y las de los clientes, tambien para corregir y manejar de manera optima las herramientas necesarias.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\cite{tecnologia+informatica}
+
+\cite{Nociones de la memoria del computador}
+
+\cite{computerhoy}
+
+\end{document}
